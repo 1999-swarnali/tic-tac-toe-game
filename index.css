@@ -71,7 +71,7 @@ body {
     /* max-width: 40rem; */
     /* border: 0.1rem solid black;
     border-radius: 1rem; */
-    padding: 10rem;
+    padding: 2rem;
     width: 100%;
     height: 100%;
     font-size: 4rem;
@@ -84,4 +84,30 @@ body {
     border: 2px solid black;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        width: 30rem;
+        height: 30rem;
+        border: 1.5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* padding: 1rem; */
+        border-radius: 2rem;
+    }
+    .main .square {
+        height: 32%;
+        width: 32%;
+        background-color: antiquewhite;
+        border: 1px solid black;
+        /* margin: 0 0.5px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+        color: rgb(93, 94, 94);
+    }
 }
